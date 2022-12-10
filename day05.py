@@ -61,7 +61,7 @@ def extendOne(list1, list2):
         
 
 
-data = open("day5Input.txt", "r")
+data = open("day05Input.txt", "r")
 lines = data.readlines()
 data.close()
 

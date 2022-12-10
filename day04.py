@@ -21,7 +21,7 @@ def compareLists(list1: list, list2: list):
     else:
         return 0
 
-data = open("day4Input.txt", "r")
+data = open("day04Input.txt", "r")
 lines = data.readlines()
 data.close()
 

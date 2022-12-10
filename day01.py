@@ -34,7 +34,7 @@ def insertNumber(list, index, value):
     return list
 
 
-data = open("day1Input.txt", "r")
+data = open("day01Input.txt", "r")
 lines = data.readlines()
 data.close()
 partTwo(lines)

@@ -62,7 +62,7 @@ def partTwo(lines):
     print(totalScore)
 
 
-data = open("day2Input.txt", "r")
+data = open("day02Input.txt", "r")
 lines = data.readlines()
 data.close()
 

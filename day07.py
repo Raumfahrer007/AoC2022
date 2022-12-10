@@ -56,7 +56,7 @@ def partTwo(lines):
             
 
 
-data = open("day7Input.txt", "r")
+data = open("day07Input.txt", "r")
 lines = data.readlines()
 data.close()
 

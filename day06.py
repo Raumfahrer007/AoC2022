@@ -13,7 +13,7 @@ def partOne(code):
             lastThree.append(char)
 
 
-data = open("day6Input.txt", "r")
+data = open("day06Input.txt", "r")
 code = data.readline()
 data.close()
 
