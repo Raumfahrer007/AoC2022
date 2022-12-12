@@ -22,7 +22,7 @@ def drawPixel(cycle, row, spritePositions):
     if spritePositions.__contains__((cycle) % 40):
         row.append("#")
     else:
-        row.append(".")
+        row.append(" ")
 
 def partTwo(lines):
     spritePosition = [0,1,2]
@@ -42,7 +42,10 @@ def partTwo(lines):
             spritePosition = [spriteMiddle - 1, spriteMiddle, spriteMiddle + 1]
 
     for row in display:
-        print(row)
+        string  = ""
+        for char in row:
+            string += char
+        print(string)
     
 
 data = open("day10Input.txt", "r")
